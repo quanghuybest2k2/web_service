@@ -2,6 +2,8 @@
 
 class Client
 {
+    private $instance;
+
     public function __construct()
     {
         $params = array(
